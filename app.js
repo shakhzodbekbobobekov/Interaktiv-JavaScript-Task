@@ -32,11 +32,3 @@
 //     console.log(natija);
 //     return natija
 // }
-
-
-
-
-
-
-// }
-// calculateGrade(marks)
