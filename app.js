@@ -70,12 +70,30 @@
 //     }
 // }
 
-// TASK 3
-let summa =''
-showStars(10)
-function showStars(rows){
-    for( i = 1; i<= rows; i++ ){
-        summa += '*'
-    console.log(summa);
+// TASK 4
+// let summa =''
+// showStars(10)
+// function showStars(rows){
+//     for( i = 1; i<= rows; i++ ){
+//         summa += '*'
+//     console.log(summa);
+//     }
+// }
+
+// TASK 5 second
+firstInspection(20)
+function firstInspection(qiymat){
+    for( let son = 2; son <= qiymat; son++ ){
+        if( secondInspection(son)){
+            console.log(son);
+        }
     }
+}
+
+function secondInspection(son) {
+    for( let son2 = 2; son2 < son; son2 ++ )
+        if( son % son2 === 0 ){
+            return false;
+        }
+    return true;
 }
