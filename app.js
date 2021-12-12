@@ -100,10 +100,56 @@
 ////////////////////////////////////////////////////////
 // todayHomeworkTask = '12.12.2021'
 
-let address = {
-    street: 'Amir Temur',
-    city: 'Samarkand',
-    zipcode: 11
-}
+// Task 1
+// let address = {
+//     street: 'Amir Temur',
+//     city: 'Samarkand',
+//     zipcode: 11
+// }
 
-console.log(address);
+// function showAddress(address) {
+//     for( keys in address ){
+//         console.log( keys, ":", address[keys] )
+//     }
+// }
+
+// showAddress(address)
+
+
+// Task 2
+// let library = [ 
+
+//     {
+//         author: 'Bill Gates',
+//         title: 'The Road Ahead',
+//         readingStatus: true
+//     },
+
+//     {
+//         author: 'Steve Jobs',
+//         title: 'Walter Isaacson',
+//         readingStatus: true
+//     },
+
+//     {
+//         author: 'Suzanne Collins',
+//         title:  'Mockingjay: The Final Book of The Hunger Games', 
+//         readingStatus: false
+//     }
+
+// ];
+
+// let titles = []
+// for( let keys in library ){
+//     titles.push(library[keys].title)
+//     titles.push(library[keys].author)
+//     titles.push(library[keys].readingStatus)
+// }
+
+// console.log(titles);
+
+// Task 3
+// old35(19) //n=30, n=19
+// function old35(n){
+//     console.log(( (n % 3 === 0) || (n % 5 === 0) )? 'true' : 'false');
+// }
