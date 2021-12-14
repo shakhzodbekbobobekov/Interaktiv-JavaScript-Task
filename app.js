@@ -153,3 +153,17 @@
 // function old35(n){
 //     console.log(( (n % 3 === 0) || (n % 5 === 0) )? 'true' : 'false');
 // }
+
+////////////////////////////////////////////////////////
+todayHomeworkTask = '12.14.2021'
+
+// Task 1
+/* function text(names){
+    return `hello ${(names)}!`
+}
+
+let natija = text('bob')
+console.log(natija); */
+// console.log(text('bob'));
+
+// Task 2
